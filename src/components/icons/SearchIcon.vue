@@ -1,5 +1,5 @@
 <template>
-    <span class="text-gray-400">
+    <span class="text-[#54656f] dark:*:text-gray-400">
         <svg viewBox="0 0 24 24" height="24" width="24" preserveAspectRatio="xMidYMid meet" class="" version="1.1"
             x="0px" y="0px" enable-background="new 0 0 24 24">
             <path fill="currentColor"

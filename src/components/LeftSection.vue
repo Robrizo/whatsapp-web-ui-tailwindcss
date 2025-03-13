@@ -1,9 +1,9 @@
 <template>
-    <div class="flex h-full w-16 border-r-2 border-[#26353d] flex-col items-center justify-between px-6 py-3">
+    <div class="flex h-full w-16 flex-col items-center justify-between px-6 py-3">
         <!-- top content -->
         <div class="space-y-4">
             <IconButton :icon="ChatIcon" :count="31" tooltip="Chats" />
-            <IconButton :icon="StatusIcon" tooltip="Status" />
+            <IconButton :icon="StatusIcon" tooltip="Status" status-count="1" />
             <IconButton :icon="ChannelsIcon" tooltip="Channels" />
             <IconButton :icon="CommunityIcon" tooltip="Communities" />
             <IconButton :icon="meta_image" tooltip="Meta AI" />

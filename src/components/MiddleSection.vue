@@ -33,7 +33,7 @@
             <!-- search -->
             <div class="relative w-full flex items-center mt-4">
                 <input type="search" placeholder="Search"
-                    class="w-full py-1.5 pl-16 pr-4 bg-[#f0f2f5] dark:bg-[#222e35] text-[#54656f] dark:text-gray-300 font-light rounded-lg placeholder:text-gray-400 focus:outline-none">
+                    class="w-full py-1.5 pl-16 pr-4 bg-[#f0f2f5] dark:bg-[#222e35] text-[#54656f] dark:text-gray-300 font-light rounded-lg placeholder:text-gray-400 border-none focus:ring-0 focus:outline-none">
                 <SearchIcon class="absolute left-4" />
             </div>
 

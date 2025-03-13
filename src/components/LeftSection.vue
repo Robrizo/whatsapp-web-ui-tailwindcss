@@ -7,12 +7,13 @@
             <IconButton :icon="ChannelsIcon" tooltip="Channels" />
             <IconButton :icon="CommunityIcon" tooltip="Communities" />
             <IconButton :icon="meta_image" tooltip="Meta AI" />
+            <IconButton :icon="ToggleDarkMode" tooltip="Toggle Dark Mode" />
         </div>
 
         <!-- bottom content -->
         <div class="space-y-4">
             <IconButton :icon="GearIcon" tooltip="Settings" />
-            <IconButton :icon="profile_image" tooltip="Profile" height="h-8" width="w-8"/>
+            <IconButton :icon="profile_image" tooltip="Profile" height="h-8" width="w-8" />
         </div>
     </div>
 </template>
@@ -24,6 +25,7 @@ import StatusIcon from '@/components/icons/StatusIcon.vue'
 import ChannelsIcon from '@/components/icons/ChannelsIcon.vue'
 import CommunityIcon from '@/components/icons/CommunityIcon.vue'
 import GearIcon from '@/components/icons/GearIcon.vue'
+import ToggleDarkMode from '@/components/icons/ToggleDarkMode.vue'
 
 import meta_image from '@/assets/images/meta.png'
 import profile_image from '@/assets/images/rjc.jpg'
